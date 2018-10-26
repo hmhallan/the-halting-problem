@@ -39,21 +39,22 @@ A entrada contém vários casos de teste. Cada caso de teste se inicia com dois 
 ## Saída
 Para cada caso de teste, seu programa deve produzir uma linha contendo um inteiro que representa o valor de saída (retorno) para a entrada **N** dada, ou um asterisco (*) no caso de o programa nunca terminar.
 
-| Exemplo de Entrada| Exemplo de Saída
-| 9 6 				| 720
-| IFEQ R0,0 		| *
-| RET 1 			| 
-| ENDIF 			| 
-| MOV R1,R0			| 
-| SUB R1,1 			| 
-| CALL R1  			| 
-| MOV R2,R9			| 
-| MUL R2,R0			| 
-| RET R2   			| 
-| 2 123    			| 	
-| CALL R0  			| 
-| RET R0   			| 
-| 0 0      			| 
+ Exemplo de Entrada	| Exemplo de Saída
+--------------------|------------------
+ 9 6 				| 720
+ IFEQ R0,0 			| *
+ RET 1 				| 
+ ENDIF 				| 
+ MOV R1,R0			| 
+ SUB R1,1 			| 
+ CALL R1  			| 
+ MOV R2,R9			| 
+ MUL R2,R0			| 
+ RET R2   			| 
+ 2 123    			| 	
+ CALL R0  			| 
+ RET R0   			| 
+ 0 0      			| 
 
 
 Maratona de Programacao da SBC 2006.
